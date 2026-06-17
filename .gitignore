@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Kaggle credentials — never commit
+kaggle.json
+
+# Keep the sample synthetic data + generated pack so reviewers can see output
+# without running anything. (Synthetic + seeded, safe to share — see README.)
