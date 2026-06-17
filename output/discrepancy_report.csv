@@ -1,0 +1,23 @@
+loan_id,txn_id,issue_type,detail,amount_impact,severity
+L9003,T98002,Orphan transaction,Payment references a loan not in the loan book,60000.0,High
+L9002,T98001,Orphan transaction,Payment references a loan not in the loan book,95000.0,High
+L9001,T98000,Orphan transaction,Payment references a loan not in the loan book,120000.0,High
+L1124,T90757,Duplicate payment,Identical payment already recorded on the same date,77222.22,Medium
+L1123,T90745,Duplicate payment,Identical payment already recorded on the same date,189166.67,Medium
+L1038,T90226,Duplicate payment,Identical payment already recorded on the same date,76250.0,Medium
+L1046,T95004,Duplicate payment,Identical payment already recorded on the same date,55416.67,Medium
+L1184,T91078,Duplicate payment,Identical payment already recorded on the same date,388333.33,Medium
+L1225,T91329,Duplicate payment,Identical payment already recorded on the same date,126111.11,Medium
+L1165,T90992,Duplicate payment,Identical payment already recorded on the same date,66666.67,Medium
+L1088,T90484,Duplicate payment,Identical payment already recorded on the same date,25416.67,Medium
+L1176,T91051,Duplicate payment,Identical payment already recorded on the same date,25416.67,Medium
+L1234,T91399,Overpayment,"Paid 204,375 vs scheduled 136,250",68125.0,Low
+L1034,T90210,Overpayment,"Paid 114,375 vs scheduled 76,250",38125.0,Low
+L1062,T90370,Underpayment,"Paid 118,000 vs scheduled 295,000",-177000.0,Low
+L1084,T90462,Underpayment,"Paid 46,333 vs scheduled 115,833",-69500.0,Low
+L1223,T91316,Overpayment,"Paid 138,750 vs scheduled 92,500",46250.0,Low
+L1130,T90781,Underpayment,"Paid 39,833 vs scheduled 99,583",-59750.0,Low
+L1158,T90945,Overpayment,"Paid 51,042 vs scheduled 34,028",17013.89,Low
+L1193,T91148,Overpayment,"Paid 135,000 vs scheduled 90,000",45000.0,Low
+L1088,T90487,Underpayment,"Paid 10,167 vs scheduled 25,417",-15250.0,Low
+L1226,T91335,Underpayment,"Paid 15,444 vs scheduled 38,611",-23166.67,Low
